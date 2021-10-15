@@ -10,7 +10,8 @@
       ]
     },
     "version": {
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "noGitTagVersion": true
     }
   },
   "version": "0.0.0"
