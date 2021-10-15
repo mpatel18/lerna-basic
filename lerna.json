@@ -2,11 +2,15 @@
   "packages": [
     "packages/*"
   ],
+  "includeMergedTags": true,
   "command": {
     "bootstrap": {
       "npmClientArgs": [
         "--no-package-lock"
       ]
+    },
+    "version": {
+      "conventionalCommits": true
     }
   },
   "version": "0.0.0"
