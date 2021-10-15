@@ -10,8 +10,10 @@
       ]
     },
     "version": {
-      "conventionalCommits": true,
-      "noGitTagVersion": true
+      "conventionalCommits": true
+    },
+    "publish": {
+      "registry": "https://npm.pkg.github.com"
     }
   },
   "version": "0.0.0"
