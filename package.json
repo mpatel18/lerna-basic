@@ -1,11 +1,6 @@
 {
   "name": "root",
   "private": true,
-  "dependencies": {
-    "@mpatel18/package-one": "latest",
-    "@mpatel18/package-two": "latest",
-    "@mpatel18/package-three": "latest"
-  },
   "devDependencies": {
     "lerna": "^4.0.0"
   },
