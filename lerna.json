@@ -3,6 +3,7 @@
     "packages/*"
   ],
   "includeMergedTags": true,
+  "useWorkspaces": true,
   "command": {
     "bootstrap": {
       "npmClientArgs": [
@@ -16,5 +17,5 @@
       "registry": "https://npm.pkg.github.com"
     }
   },
-  "version": "0.0.1"
+  "version": "independent"
 }
