@@ -6,6 +6,14 @@
   "scripts": {
     "test": "echo \"This is package two\""
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mpatel18/lerna-basic",
+    "directory": "packages/package-two"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"

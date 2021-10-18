@@ -7,6 +7,10 @@
   "devDependencies": {
     "lerna": "^4.0.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mpatel18/lerna-basic"
+  },
   "workspaces": [
     "./packages/*"
   ]
