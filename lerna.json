@@ -11,7 +11,8 @@
       ]
     },
     "version": {
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "allowBranch": ["release/*"]
     },
     "publish": {
       "registry": "https://npm.pkg.github.com"
