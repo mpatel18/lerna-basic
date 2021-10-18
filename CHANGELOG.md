@@ -5,4 +5,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.1 (2021-10-18)
 
-**Note:** Version bump only for package root
+**Note:** Version bump only for all packages
