@@ -19,8 +19,10 @@ jobs:
           check-latest: true 
       - name: Install
         run: |
-          npm install
+          npm ci
       - name: Test
         run: lerna run test
+      - name: Changed
+        run: lerna changed
       - name: Publish
         run: lerna publish from-package --yes
