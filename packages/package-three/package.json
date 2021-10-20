@@ -11,6 +11,9 @@
     "url": "https://github.com/mpatel18/lerna-basic",
     "directory": "packages/package-three"
   },
+  "dependencies": {
+    "@mpatel18/package-one": "^0.0.2"
+  },
   "publishConfig": {
     "access": "public"
   },
