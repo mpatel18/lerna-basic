@@ -2,7 +2,7 @@ name: lerna publish
 on:
   pull_request:
     branches:
-      - release/*
+      - main
     types: [closed]
 
 jobs:
