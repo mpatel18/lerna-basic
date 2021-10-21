@@ -10,15 +10,15 @@ npm install
 npm run lerna:bootstrap
 ```
 
-Since this repository uses [Lerna](https://lernajs.io) you'll also need to run `npm run bootstrap` anytime that you have changed the dependencies within a package.
+Since this repository uses [lerna](https://lernajs.io) you'll also need to run `npm run bootstrap` anytime that you have changed the dependencies within a package.
 
 ## Commiting changes
 
 Since `lerna-basic` follows the [`conventional-commits`](http://conventionalcommits.org/) standard. Follow these standards: 
 
-1. fix: a commit of the type `fix` patches a bug in your codebase (this correlates with [PATCH](https://semver.org/) in Semantic Versioning).
-1. feat: a commit of the type `feat` introduces a new feature to the codebase (this correlates with [MINOR](https://semver.org/) in Semantic Versioning).
-1. BREAKING CHANGE: a commit that has a footer `BREAKING CHANGE:`, or appends a `!` after the type/scope, introduces a breaking API change (correlating with [MAJOR](https://semver.org/) in Semantic Versioning). 
+1. fix: a commit of the type `fix` patches a bug in your codebase (this correlates with [`PATCH`](https://semver.org/) in Semantic Versioning).
+1. feat: a commit of the type `feat` introduces a new feature to the codebase (this correlates with [`MINOR`](https://semver.org/) in Semantic Versioning).
+1. BREAKING CHANGE: a commit that has a footer `BREAKING CHANGE:`, or appends a `!` after the type/scope, introduces a breaking API change (correlating with [`MAJOR`](https://semver.org/) in Semantic Versioning). 
 A BREAKING CHANGE can be part of commits of any type.
 1. types other than `fix:` and `feat:` are allowed, for example @commitlint/config-conventional (based on the the Angular convention) recommends
 `build:`, `chore:`, `ci:`, `docs:`, `style:`, `refactor:`, `perf:`, `test:`, and others.
@@ -32,7 +32,7 @@ Make sure to include the full name of the package that you are changing in the s
 
 lerna-basic uses [lerna](https://lernajs.io) and [github actions](https://github.com/features/actions) in order to publish new versions of packages.
 
-###Release Workflow
+### Release Workflow
 
 1. [User] Checkout release branch `git checkout release/<uniq>`
 2. [User] Run `npm run lerna:version`
