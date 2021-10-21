@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "lerna:bootstrap": "lerna bootstrap",
-    "lerna:version": "lerna version --no-git-tag-version",
+    "lerna:version": "lerna version --include-merged-tags --yes",
     "lerna:publish": "lerna publish from-package --yes",
     "test": "lerna run test"
   },
