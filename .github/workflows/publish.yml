@@ -23,8 +23,6 @@ jobs:
           npm run test
         env: 
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-      - name: Changed
-        run: lerna changed
       - name: Publish
         run: npm run lerna:publish
         env: 
