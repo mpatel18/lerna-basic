@@ -12,7 +12,9 @@
     },
     "version": {
       "conventionalCommits": true,
-      "allowBranch": ["main", "release/*"]
+      "ignoreChanges": ["**/*.md"],
+      "allowBranch": ["main", "release/*"],
+      "message": "chore(release): publish"
     },
     "publish": {
       "registry": "https://npm.pkg.github.com"
