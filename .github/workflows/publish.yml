@@ -26,6 +26,6 @@ jobs:
       - name: Changed
         run: lerna changed
       - name: Publish
-        run: lerna publish from-package --yes
+        run: npm run lerna:publish
         env: 
           GH_TOKEN: ${{ secrets.GH_TOKEN }}

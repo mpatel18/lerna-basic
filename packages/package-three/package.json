@@ -1,6 +1,6 @@
 {
   "name": "@mpatel18/package-three",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "directory": "packages/package-three"
   },
   "dependencies": {
-    "@mpatel18/package-one": "^0.0.2"
+    "@mpatel18/package-one": "^0.0.3"
   },
   "publishConfig": {
     "access": "public"

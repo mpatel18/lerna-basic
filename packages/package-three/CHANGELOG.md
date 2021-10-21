@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1](https://github.com/mpatel18/lerna-basic/compare/@mpatel18/package-three@0.1.0...@mpatel18/package-three@0.1.1) (2021-10-21)
+
+**Note:** Version bump only for package @mpatel18/package-three
+
+
+
+
+
 # 0.1.0 (2021-10-20)
 
 
