@@ -2,7 +2,9 @@
   "name": "root",
   "private": true,
   "scripts": {
+    "lerna:bootstrap": "lerna bootstrap",
     "lerna:version": "lerna version --no-git-tag-version",
+    "lerna:publish": "lerna publish from-package --yes",
     "test": "lerna run test"
   },
   "devDependencies": {
