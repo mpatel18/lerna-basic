@@ -17,12 +17,15 @@ jobs:
         with:
           node-version: 16
           check-latest: true 
-      - name: Install
+      - name: Install and Test
         run: |
           npm ci
-      - name: Test
-        run: lerna run test
+          npm run test
+        env: 
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
       - name: Changed
         run: lerna changed
       - name: Publish
         run: lerna publish from-package --yes
+        env: 
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
